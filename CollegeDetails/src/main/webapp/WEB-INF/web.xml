@@ -19,4 +19,54 @@
     <servlet-name>TimeTableServlet</servlet-name>
     <url-pattern>/TimeTableServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>TimeTableISE</display-name>
+    <servlet-name>TimeTableISE</servlet-name>
+    <servlet-class>TimeTableISE</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TimeTableISE</servlet-name>
+    <url-pattern>/TimeTableISE</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SyllabusISE</display-name>
+    <servlet-name>SyllabusISE</servlet-name>
+    <servlet-class>SyllabusISE</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SyllabusISE</servlet-name>
+    <url-pattern>/SyllabusISE</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LabScheduleISE</display-name>
+    <servlet-name>LabScheduleISE</servlet-name>
+    <servlet-class>LabScheduleISE</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LabScheduleISE</servlet-name>
+    <url-pattern>/LabScheduleISE</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SyllabusServlet</display-name>
+    <servlet-name>SyllabusServlet</servlet-name>
+    <servlet-class>SyllabusServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SyllabusServlet</servlet-name>
+    <url-pattern>/SyllabusServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LabScheduleServlet</display-name>
+    <servlet-name>LabScheduleServlet</servlet-name>
+    <servlet-class>LabScheduleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LabScheduleServlet</servlet-name>
+    <url-pattern>/LabScheduleServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

@@ -5,9 +5,9 @@
 	<hr>
 	<a href="info.jsp">Time-Table</a>
 	<br><br>
-	<a href="">Syllabus</a>
+	<a href="SyllabusServlet">Syllabus</a>
 	<br><br>
-	<a href="">Lab-Schedule</a>
+	<a href="LabScheduleServlet">Lab-Schedule</a>
 	<br><br>
 	<hr>
 </body>
